@@ -1,17 +1,9 @@
 # Sistema de Biblioteca
 
-As solucoes estao separadas por exercicio:
+Estas são as respostas para as atividades obrigatórias 6, 7 e 8 do programa +PraTI FullStack Developer 2026. A resolução é divida em 3 pastas, separando as 3 tarefas de forma organizada.
 
-- `1-Java`: classes Java organizadas no pacote `biblioteca`.
-- `2-Modelagem`: criacao das tabelas e insercao dos dados de teste no PostgreSQL.
-- `3-Consulta`: as quatro consultas SQL solicitadas.
+1-Java: É a formulação de uma biblioteca simples em java com as respectivas classes e métodos.
 
-Para compilar e executar o exemplo Java no PowerShell:
+2-Modelagem: Um modelagem relacional da mesma biblioteca, só que no PostgreSQL.
 
-```powershell
-$sources = Get-ChildItem .\1-Java\src\main\java -Recurse -Filter *.java
-javac -d .\1-Java\out $sources.FullName
-java -cp .\1-Java\out biblioteca.Main
-```
-
-Execute primeiro `2-Modelagem/01-schema-e-dados.sql` no PostgreSQL e depois `3-Consulta/01-consultas.sql`.
+3-Consulta: São consultas ordenadas para o PostgreSQL que respondem necessidades do PDF passado.
